@@ -51,11 +51,11 @@ export const metadata = {
     siteName: siteConfig.name,
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: "/icon.ico",
     shortcut: "/favicon-16x16.ico",
     apple: "/apple-touch-icon.png",
   },
-  metadataBase: new URL("https://waitlist.saasfly.io/"),
+  metadataBase: new URL("https://github.com/Hemal-Mamtora/coinify-waitlist"),
   // manifest: `${siteConfig.url}/site.webmanifest`,
 };
 
