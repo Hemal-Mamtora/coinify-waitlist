@@ -38,10 +38,10 @@ export const metadata = {
   ],
   authors: [
     {
-      name: "Saasfly",
+      name: "Hemal Mamtora",
     },
   ],
-  creator: "Saasfly",
+  creator: "Hemal Mamtora",
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -53,7 +53,7 @@ export const metadata = {
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon-16x16.ico",
-    // apple: "/apple-touch-icon.png",
+    apple: "/apple-touch-icon.png",
   },
   metadataBase: new URL("https://waitlist.saasfly.io/"),
   // manifest: `${siteConfig.url}/site.webmanifest`,

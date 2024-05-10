@@ -1,23 +1,6 @@
-"use client";
 import { BackgroundBeams } from "@saasfly/ui/background-beams";
-import { useState } from "react";
-import { env } from "~/env.mjs";
 
 export default function IndexPage() {
-    const [email, setEmail] = useState("");
-    const [emailError, setEmailError] = useState("");
-
-    const handleEmailChange = (e) => {
-        const newEmail = e.target.value;
-        setEmail(newEmail);
-        setEmailError(validateEmail(newEmail) ? "" : "Invalid email");
-    };
-
-    const validateEmail = (email) => {
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        return emailRegex.test(email);
-    };
-
     return (
         <section className="relative min-h-screen">
             <div className="container mx-auto flex min-h-screen flex-col justify-center text-center">
