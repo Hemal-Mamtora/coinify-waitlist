@@ -1,32 +1,25 @@
-# Empower Your AI Startup with a  Waitlist
+# Coinify: Empower your startup by adding virtual coins!
 
-Kickstart your AI startup journey with a waitlist instead of a SaaS template. Once you've completed your waitlist, check out our AI-powered Next.js SaaS template [Saasfly](https://github.com/saasfly/saasfly).
+Kickstart your startup journey with coinification instead of a Real Money. Once you've completed your MVP, integrate using [Razorpay](https://razorpay.com/) or [Stripe](https://stripe.com/).
 
-## Why Choose Saasfly Waitlist?
+## Why Choose Coinify?
 
-1. **High-Performance Static Pages**: Leveraging Next.js's static site generation (SSG) capabilities, deliver blazing-fast static pages while enjoying Next.js's unparalleled development experience.
-2. **Zero Hosting Costs**: Deploy static pages on Cloudflare completely free of charge, eliminating hosting costs and concerns.
-3. **Dynamic Data Collection**: Harness the power of Google Forms to collect form data, empowering static pages with dynamic capabilities for seamless data collection and user interaction.
-4. **Data Ownership and Privacy**: Maintain full control and ownership of your data without relying on third-party SaaS providers, ensuring data privacy and autonomy.
-5. **Powerful Data Analysis**: Utilize a simple yet effective local-first analysis [service](https://excel.saasfly.io/) to gain valuable insights from your collected data. This lightweight tool empowers you to make data-driven decisions without the need for complex and costly BI systems, while keeping your data secure and under your control.
-
-> **Nextify** offers complete enterprise-grade SaaS solutions. If you're interested in discussing your project or just want to connect with us, feel free to reach out at contact@nextify.ltd.
-
-> ❤️ We **provide free technical support and deployment services for non-profit organizations**.
-
-> 🙌 **All profits we gain from open-source projects will be entirely used to support open-source initiatives and charitable causes**.
+1. **Focus on building your startup**: Build your core business first
+2. **Gamify**: Gamify your startup using coinify. Reduce churn, retain users for longer
+3. **Zero Upfront Cost**: You just plug and play coinify into your application
 
 ## Introduction
 
-Our goal is to leverage Next.js's static site generation (SSG) capabilities to build a high-performance waiting list page, and use Google Forms as the backend to receive user-submitted email information. With this approach, we can quickly and cost-effectively create a waiting list page without having to write any backend code for data collection.
+Our goal is to coinify your application so that you are up and running with your core business. Coinify your application. Now you have yet another powerful tool for user base retention.
 
 ## ⚡ Live Demo
 
 Try it out for yourself!
 
-Demo URL: https://waitlist.saasfly.io
+Demo URL: Coming Soon
 
 ## ⚠️ Attention
+
 For security reasons, we forcefully require users to log in before submitting the Google Form. You can turn off this requirement in the test environment or if your use case doesn't need this level of security.
 
 ![Google Form Login](img.png)
@@ -71,11 +64,12 @@ bun install
 ```bash
 cp .env.example .env.local
 ```
+
 See our [documentation](https://document.saasfly.io/usage/waitlist/google-forms/) to learn how to get your own variables.
 
 3. Run the development server:
 
-```bash
+````bash
 bun run dev
 ```c
 
@@ -104,3 +98,4 @@ You don't need a very complex BI system. I build a simple local-first excel anal
 
 ## 📜 License
 This project is licensed under the MIT License. For more information, see the [LICENSE](LICENSE) file.
+````

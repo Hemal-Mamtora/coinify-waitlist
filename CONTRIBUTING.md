@@ -1,4 +1,4 @@
-## Can I create a pull request for saasfly?
+## Can I create a pull request for Coinify?
 
 Yes or no, it depends on what you will try to do. Since I don't want to waste your time, be sure to **create an empty draft pull request or open an issue, so we can have a discussion first**. Especially for a large pull request or you don't know if it will be merged or not.
 
@@ -32,7 +32,7 @@ The above cases may not cover all possible situations.
 
 If your pull request does not meet my expectations, I will reject it, no matter how much time you spent on it. Therefore, it is essential to have a discussion beforehand.
 
-I will assign your pull request to a [milestone](https://github.com/saasfly/saasfly/milestones), if I plan to review and merge it.
+I will assign your pull request to a [milestone](https://github.com/Hemal-Mamtora/coinify-waitlist/milestones), if I plan to review and merge it.
 
 Also, please don't rush or ask for an ETA, because I have to understand the pull request, make sure it is no breaking changes and stick to my vision of this project, especially for large pull requests.
 
