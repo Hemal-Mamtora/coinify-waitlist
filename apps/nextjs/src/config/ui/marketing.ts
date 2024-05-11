@@ -3,7 +3,7 @@ export const getMarketingConfig = () => {
     mainNav: [
       {
         title: "Github",
-        href: `https://github.com/saasfly/saasfly`,
+        href: `https://github.com/Hemal-Mamtora/coinify-waitlist`,
       },
     ],
   };

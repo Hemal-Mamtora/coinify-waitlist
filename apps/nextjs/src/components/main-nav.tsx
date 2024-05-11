@@ -26,13 +26,14 @@ export function MainNav({ items, children }: MainNavProps) {
   }, []);
   const isDarkMode = theme === "dark";
   const logoColor = isDarkMode ? "#FFFFFF" : "#000000";
+  const coinifyLogoColor = isDarkMode ? "#000000" : "#FFFFFF";
   if (!mounted) return null;
 
   return (
     <div className="flex items-center justify-between">
       <div className="flex items-center space-x-4">
         <Link href="/" className="hidden items-center space-x-2 md:flex">
-          <Icons.Saasfly className="h-8 w-8" fill={logoColor} />
+          <Icons.Coinify className="h-8 w-8" fill={coinifyLogoColor} />
         </Link>
         {items?.length ? (
           <nav className="hidden space-x-6 md:flex">
